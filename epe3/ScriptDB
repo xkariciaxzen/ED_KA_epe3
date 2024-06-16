@@ -1,0 +1,11 @@
+CREATE DATABASE taller;
+
+USE taller;
+
+CREATE TABLE repuestos (
+    RepuestoID INT AUTO_INCREMENT PRIMARY KEY,
+    NombreRepuesto VARCHAR(100) NOT NULL,
+    CantidadStock INT NOT NULL,
+    PrecioUnitario DECIMAL(10, 2) NOT NULL,
+    Proveedor VARCHAR(100) NOT NULL
+);
